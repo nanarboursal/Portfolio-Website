@@ -18,8 +18,8 @@ export default function BackgroundParticles() {
             loaded={particlesLoaded}
             options={{
                 fullScreen: {
-                    enable: false,
-                    zIndex: -10
+                    enable: true,
+                    zIndex: -1
                 },
                 particles: {
                     number: {

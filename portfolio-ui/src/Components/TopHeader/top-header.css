@@ -1,0 +1,12 @@
+.top-writing {
+    color: black;
+    text-align: center;
+}
+
+.top-writing-block {
+    background-color: white;
+    height: 70vh;
+    width: 70vh;
+    z-index: 1000;
+    position: relative;
+}
