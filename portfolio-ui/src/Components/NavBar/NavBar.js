@@ -9,6 +9,7 @@ import {
 } from "reactstrap";
 
 import "./nav-bar.css";
+import professionalPic from "../../Images/professional.png";
 
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -18,12 +19,18 @@ const NavBar = () => {
     return (
         <div>
             <Navbar color="dark" dark className="user-nav">
-                <NavbarBrand id="the-brand" href="/">Brand</NavbarBrand>
+                <NavbarBrand className="navbar-name" href="/"><img
+                    src={professionalPic}
+                    width="40"
+                    height="40"
+                    className="d-inline-block align-top"
+                    alt="portfolio logo"
+                /> {' '} Nanar Boursalian</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                     </Nav>
-                    <NavItem>Education</NavItem>
+                    <NavItem className="item-nav">Education</NavItem>
                 </Collapse>
             </Navbar>
         </div >
