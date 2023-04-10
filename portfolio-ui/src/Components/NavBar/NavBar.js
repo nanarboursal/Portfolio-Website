@@ -6,15 +6,15 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
+    NavLink,
 } from "reactstrap";
 
 import "./nav-bar.css";
 import professionalPic from "../../Images/professional.png";
 
 const NavBar = () => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggle = () => setIsOpen(!isOpen);
+    const [collapsed, setCollapsed] = useState(false);
+    const toggleNavbar = () => setCollapsed(!collapsed);
 
     return (
         <div>
@@ -26,11 +26,22 @@ const NavBar = () => {
                     className="d-inline-block align-top"
                     alt="portfolio logo"
                 /> {' '} Nanar Boursalian</NavbarBrand>
-                <NavbarToggler onClick={toggle} />
-                <Collapse isOpen={isOpen} navbar>
-                    <Nav className="ml-auto" navbar>
+                <NavbarToggler onClick={toggleNavbar} />
+                <Collapse isOpen={!collapsed} navbar>
+                    <Nav className="mr-auto" navbar>
+                        <NavItem className="item-nav">
+                            <NavLink>Education</NavLink>
+                        </NavItem>
+                        <NavItem className="item-nav">
+                            <NavLink>Skills</NavLink>
+                        </NavItem>
+                        <NavItem className="item-nav">
+                            <NavLink>Experience</NavLink>
+                        </NavItem>
+                        <NavItem className="item-nav">
+                            <NavLink>Projects</NavLink>
+                        </NavItem>
                     </Nav>
-                    <NavItem className="item-nav">Education</NavItem>
                 </Collapse>
             </Navbar>
         </div >
