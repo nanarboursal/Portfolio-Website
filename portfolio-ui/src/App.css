@@ -1,0 +1,10 @@
+.portfolio-information {
+    position: fixed;
+    top: 70px;
+    bottom: 40px;
+    left: 40px;
+    right: 40px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,9 @@
+.skills-block {
+    background-color: #edf2f4;
+    position: fixed;
+    top: 40px;
+    width: 100%;
+    padding: 1%;
+    opacity: 80%;
+    border-radius: 10px;
+}
