@@ -16,7 +16,6 @@
     margin-right: 15px;
     margin-left: 15px;
     font-size: 22px;
-    list-style-type: none;
 }
 
 .item-nav:hover {
@@ -25,5 +24,4 @@
 
 .the-nav {
     flex-direction: row;
-    color: black;
 }
