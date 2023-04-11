@@ -1,8 +1,10 @@
 import BackgroundParticles from "./Components/BackgroundParticles/BackgroundParticles";
-import TopHeader from "./Components/TopHeader/TopHeader";
 import NavBar from "./Components/NavBar/NavBar";
 import Education from "./Components/Education/Education";
+import Skills from "./Components/Skills/Skills";
 import "./App.css";
+import Projects from "./Components/Projects/Projects";
+import Experience from "./Components/Experience/Experience";
 
 const App = () => {
   return (
@@ -11,7 +13,9 @@ const App = () => {
       <BackgroundParticles />
       <div className="portfolio-information">
         <Education />
-        <Education />
+        <Skills />
+        <Experience />
+        <Projects />
       </div>
     </div>
   );
