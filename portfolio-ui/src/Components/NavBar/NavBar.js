@@ -18,7 +18,7 @@ const NavBar = () => {
 
     return (
         <div>
-            <Navbar color="dark" dark className="user-nav">
+            <Navbar className="user-nav">
                 <NavbarBrand className="navbar-name" href="/"><img
                     src={professionalPic}
                     width="40"
@@ -26,23 +26,23 @@ const NavBar = () => {
                     className="d-inline-block align-top"
                     alt="portfolio logo"
                 /> {' '} Nanar Boursalian</NavbarBrand>
-                <NavbarToggler onClick={toggleNavbar} />
-                <Collapse isOpen={!collapsed} navbar>
-                    <Nav className="mr-auto" navbar>
-                        <NavItem className="item-nav">
-                            <NavLink>Education</NavLink>
-                        </NavItem>
-                        <NavItem className="item-nav">
-                            <NavLink>Skills</NavLink>
-                        </NavItem>
-                        <NavItem className="item-nav">
-                            <NavLink>Experience</NavLink>
-                        </NavItem>
-                        <NavItem className="item-nav">
-                            <NavLink>Projects</NavLink>
-                        </NavItem>
-                    </Nav>
-                </Collapse>
+                {/* <NavbarToggler onClick={toggleNavbar} /> */}
+                {/* <Collapse  isOpen={!collapsed} navbar> */}
+                <Nav className="the-nav ml-auto" navbar>
+                    <NavItem className="item-nav">
+                        <NavLink>Education</NavLink>
+                    </NavItem>
+                    <NavItem className="item-nav">
+                        <NavLink>Skills</NavLink>
+                    </NavItem>
+                    <NavItem className="item-nav">
+                        <NavLink>Experience</NavLink>
+                    </NavItem>
+                    <NavItem className="item-nav">
+                        <NavLink>Projects</NavLink>
+                    </NavItem>
+                </Nav>
+                {/* </Collapse> */}
             </Navbar>
         </div >
     );
