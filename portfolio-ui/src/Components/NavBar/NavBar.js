@@ -30,16 +30,16 @@ const NavBar = () => {
                 {/* <Collapse  isOpen={!collapsed} navbar> */}
                 <Nav className="the-nav ml-auto" navbar>
                     <NavItem className="item-nav">
-                        <NavLink>Education</NavLink>
+                        <NavLink href="#education">Education</NavLink>
                     </NavItem>
                     <NavItem className="item-nav">
-                        <NavLink>Skills</NavLink>
+                        <NavLink href="#skills">Skills</NavLink>
                     </NavItem>
                     <NavItem className="item-nav">
-                        <NavLink>Experience</NavLink>
+                        <NavLink href="#experience">Experience</NavLink>
                     </NavItem>
                     <NavItem className="item-nav">
-                        <NavLink>Projects</NavLink>
+                        <NavLink href="#projects">Projects</NavLink>
                     </NavItem>
                 </Nav>
                 {/* </Collapse> */}
