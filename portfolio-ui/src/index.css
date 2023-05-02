@@ -17,3 +17,9 @@ code {
   src: local('Dhurjati'),
     url('../../portfolio-ui/src/Fonts/Dhurjati/Dhurjati-Regular.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: "Warnes";
+  src: local('Warnes'),
+    url('../../portfolio-ui/src/Fonts/Warnes/Warnes-Regular.ttf') format('truetype');
+}

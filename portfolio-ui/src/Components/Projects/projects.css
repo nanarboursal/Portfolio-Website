@@ -5,3 +5,10 @@
     opacity: 80%;
     border-radius: 10px;
 }
+
+.projects-block>h1 {
+    font-family: "Warnes";
+    color: red;
+    text-shadow: 4px 4px 10px rgba(255, 0, 0, 0.5);
+    font-size: 30px;
+}
