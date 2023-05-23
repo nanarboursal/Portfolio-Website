@@ -19,7 +19,7 @@
 }
 
 .item-nav:hover {
-    cursor: pointer;
+    cursor: 'url(portfolio-ui/src/Images/rocket.png),auto';
 }
 
 .the-nav {

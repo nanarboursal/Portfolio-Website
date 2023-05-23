@@ -1,8 +1,9 @@
 .edu-block {
-    background-color: #edf2f4;
+    /* background-color: #edf2f4; */
+    background: rgba(237, 242, 244, 0.8);
     margin: 10px;
     padding: 1%;
-    opacity: 80%;
+    /* opacity: 0.8; */
     border-radius: 10px;
 }
 
@@ -11,4 +12,10 @@
     color: red;
     text-shadow: 4px 4px 10px rgba(255, 0, 0, 0.5);
     font-size: 30px;
+}
+
+.edu-info {
+    background: rgba(255, 255, 255, 1);
+    margin: 10px;
+    border-radius: 10px;
 }

@@ -1,11 +1,10 @@
 .portfolio-information {
-    position: fixed;
+    position: relative;
     top: 70px;
     bottom: 40px;
-    left: 40px;
-    right: 40px;
-    /* background-color: antiquewhite; */
     display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
     flex-direction: column;
     justify-content: space-evenly;
 }
