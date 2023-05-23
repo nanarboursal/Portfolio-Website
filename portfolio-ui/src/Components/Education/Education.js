@@ -1,11 +1,17 @@
-import "./education.css"
+import EducationInfo from "./EducationInfo/EducationInfo";
+import "./education.css";
+import educationInfo from "./education.json";
 
 export default function Education() {
     return (
         <div id="education" className="edu-block">
             <h1>Education</h1>
             <div className="edu-info">
-                <h1>Hello</h1>
+                {educationInfo.Education.map(edu => {
+                    return (
+                        <EducationInfo info={edu}></EducationInfo>
+                    );
+                })}
             </div>
         </div>
     );
