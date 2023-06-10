@@ -1,6 +1,6 @@
 import EducationInfo from "./EducationInfo/EducationInfo";
 import "./education.css";
-import educationInfo from "./education.json";
+import educationInfo from "./educationInfo";
 
 export default function Education() {
     return (

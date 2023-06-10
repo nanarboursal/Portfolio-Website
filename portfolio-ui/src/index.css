@@ -23,3 +23,9 @@ code {
   src: local('Warnes'),
     url('../../portfolio-ui/src/Fonts/Warnes/Warnes-Regular.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: "Rajdhani";
+  src: local('Rajdhani'),
+    url('../../portfolio-ui/src/Fonts/Rajdhani/Rajdhani-Regular.ttf') format('truetype');
+}
