@@ -7,7 +7,7 @@ const educationInfo = {
       Logo: require('../../Images/sjsu.png'),
       Degree: 'B.S. Software Engineering',
       GraduationDate: 'May 2023',
-      GPA: 3.906,
+      GPA: 3.912,
       RelevantCoursework: [
         'Data Structures & Algorithms',
         'Software Development Lifecycle',
@@ -16,8 +16,8 @@ const educationInfo = {
         'Operating Systems'
       ],
       Organizations: [
-        'SJSU Society of Women Engineers',
-        'Software and Computer Engineering Society'
+        'SJSU Society of Women Engineers (SWE)',
+        'Software and Computer Engineering Society (SCE)'
       ]
     }
   ]

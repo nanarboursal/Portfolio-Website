@@ -1,4 +1,22 @@
 .info-box {
     display: flex;
     flex-direction: row;
+    margin: 1%;
+}
+
+.name-date {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+img.school-logo {
+    width: 320px;
+    height: 200px;
+}
+
+.school-info {
+    display: flex;
+    flex-direction: column;
 }
